@@ -1,11 +1,28 @@
-# FireRed Legenda — Português (Brasil)
+# FireRed Legenda — Português do Brasil
 
 Tradução para português do Brasil dos **diálogos** de *Pokémon FireRed* e
 *Pokémon LeafGreen* no formato de **mod para o gen1recomp** (fork
-[`bryanthaboi/gen1recomp`](https://github.com/bryanthaboi/gen1recomp)).
+[`bryanthaboi/gen1recomp`](https://github.com/bryanthaboi/gen1recomp), suporte
+a Gen 3 em beta).
 
 Não é patch de ROM: o mod conversa com o motor pelo registro `text` e
 sobrescreve as falas em tempo de execução. A ROM permanece intocada.
+
+---
+
+## Créditos
+
+| Responsabilidade | Autor |
+|---|---|
+| **Tradução (a legenda)** | **BRENO** |
+| **Criação do mod para o G1R** | **LordSangreal** |
+| **Revisão** | **LordSangreal** e **Solid One** |
+
+A tradução partiu do dump de storyline em português do BRENO e foi adaptada ao
+formato de mod do gen1recomp por LordSangreal, com revisão de LordSangreal e
+Solid One.
+
+---
 
 ## O que está traduzido
 
@@ -44,7 +61,7 @@ numeração do `<id>` do dump de storyline do PokéMMO (`id 1516117` → `0x1722
 O motor renderiza os acentos portugueses através de duas tabelas —
 `TextIR.CHARMAP` (decode) e `FrlgFont.LATIN_GLYPHS` (render). A união das duas
 cobre **`é ê á ç í ó É Á Í ô à ú Ó Ç Ê â Â Ú Ô À º ª ♂ ♀ Ë Ì`** e o resto do
-latim, portanto esses caracteres aparecem **como no XML de origem**.
+latim, portanto esses caracteres aparecem **como no dump de origem**.
 
 O que não existe em nenhuma das duas tabelas é o **tilde**: `ã`, `Ã`, `õ`, `Õ`.
 Para esses o motor cai no fallback `0x00` e a letra sai **em branco** — o
@@ -56,9 +73,9 @@ Deixar o tilde produziria `n o` no lugar de `não` e `POK M N` no lugar de
 `POKéMON`. Por isso `ã→a`, `Ã→A`, `õ→o`, `Õ→O`. Quando alguém adicionar os
 glifos de tilde ao motor, é reverter quatro substituições.
 
-`« »` do XML viraram `" "`: o ROM guarda esses caracteres nos bytes `0xB1`/`0xB2`,
-que o motor renderiza como aspas curvas — é o mesmo glifo, com nome diferente
-nos dois lados.
+`« »` do dump viraram `" "`: a ROM guarda esses caracteres nos bytes
+`0xB1`/`0xB2`, que o motor renderiza como aspas curvas — é o mesmo glifo, com
+nome diferente nos dois lados.
 
 ## Instalação
 
