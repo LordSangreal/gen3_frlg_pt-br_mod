@@ -1,4 +1,4 @@
-lang/
-*.lua.orig
-.bak
+*.bak
+*.orig
+*.tmp
 .DS_Store
