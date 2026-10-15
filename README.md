@@ -1,4 +1,4 @@
-# FireRed Legenda — Português do Brasil
+# Gen 3 - Legenda PT-BR fireRed & LeafGreen
 
 Tradução para português do Brasil dos **diálogos** de *Pokémon FireRed* e
 *Pokémon LeafGreen* no formato de **mod para o gen1recomp** suporte
