@@ -1,9 +1,8 @@
 # FireRed Legenda — Português do Brasil
 
 Tradução para português do Brasil dos **diálogos** de *Pokémon FireRed* e
-*Pokémon LeafGreen* no formato de **mod para o gen1recomp** (fork
-[`bryanthaboi/gen1recomp`](https://github.com/bryanthaboi/gen1recomp), suporte
-a Gen 3 em beta).
+*Pokémon LeafGreen* no formato de **mod para o gen1recomp** suporte
+a Gen 3 em beta
 
 Não é patch de ROM: o mod conversa com o motor pelo registro `text` e
 sobrescreve as falas em tempo de execução. A ROM permanece intocada.
