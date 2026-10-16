@@ -1,4 +1,4 @@
--- chave g3:<offset+0x08000000>; \n = quebra de linha, \p = nova página
+-- Diálogos exclusivos do FireRed
 
 return {
   ["g3:08172255"] = "Meus amigos e eu viemos aqui para\\ncapturar POKéMON INSETO!\\pTodos estao ansiosos por batalhas\\nPOKéMON!",

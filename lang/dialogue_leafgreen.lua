@@ -1,18 +1,4 @@
--- FireRed Legenda PT-BR - dialogos PROPRIOS da ROM de LeafGreen.
---
--- Chaves g3:<offset + 0x08000000>, onde o offset e o do MESMO texto na
--- ROM de LeafGreen. O offset difere do de FireRed: as duas ROMs guardam a
--- maior parte do texto em enderecos diferentes (medido: 3419 offsets
--- proprios de cada ROM, apenas 50 coincidem -- e esses 50 tem texto
--- diferente). Por isso este catalogo foi gerado casando o TEXTO em ingles
--- do dump com o texto varrido na ROM de LeafGreen, nunca por offset.
---
--- 3408 dialogos casados; 192 ficaram de fora porque o texto de LeafGreen e
--- realmente diferente nesses pontos (mostrariam frase errada na tela), e 0 exigem
--- placeholder diferente do dump. Esses casos continuam em ingles.
---
--- Aplicado por main.lua so quando GameVersion.get() == "leafgreen".
--- Em FireRed vale lang/dialogue_firered.lua; em ambos, lang/dialogue.lua.
+-- Diálogos exclusivos do LeafGreen
 
 return {
   ["g3:081722a3"] = "Ei! Você tem POKéMON!\\nSim!\\pBora batalhar!",

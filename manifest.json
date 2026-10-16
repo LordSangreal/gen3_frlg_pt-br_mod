@@ -1,6 +1,6 @@
 {
-  "id": "firered-legenda-ptbr",
-  "name": "FireRed Legenda — Português (Brasil)",
+  "id": "gen3_frlg_pt-br_mod",
+  "name": "[PT-BR] Versão Brasileira (FRLG)",
   "version": "0.1.0",
   "api": 2,
   "entry": "main.lua",
@@ -18,5 +18,5 @@
   "conflicts": [],
   "incompatible": [],
   "experimental": false,
-  "description": "Traducao PT-BR dos dialogos da ROM de Pokemon FireRed e LeafGreen. Golpes, itens, nomes e menus continuam em ingles (fora do escopo desta versao). Pendente: ã/Ã nao tem glifo na latin_small da ROM, por isso aparecem como a/A."
+  "description": "Tradução de FireRed e LeafGreen para PT-BR. Portada da tradução de GBA feita por Breno em 2026."
 }
