@@ -1,0 +1,1 @@
+- Editar fontes do jogo para adicionar acentos faltantes, como Ã e ã
