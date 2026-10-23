@@ -1,5 +1,27 @@
 -- Arquivo principal que aplica as traduções de diálogos, nomes e descrições de itens, movimentos, treinadores e strings.
 return function(mod)
+  -- A fonte do jogo não tem til, então ã/Ã e õ/Õ são trocados por ä/Ä e ö/Ö (cujos glifos
+  -- foram redesenhados na fonte). Só os VALORES são alterados; as chaves ficam como estão.
+  -- Escapes decimais UTF-8: ã = 195 163, Ã = 195 131, ä = 195 164, Ä = 195 132,
+  --                         õ = 195 181, Õ = 195 149, ö = 195 182, Ö = 195 150.
+  local TILDE_MAP = {
+    { "\195\163", "\195\164" },
+    { "\195\131", "\195\132" },
+    { "\195\181", "\195\182" },
+    { "\195\149", "\195\150" },
+  }
+  local function remap(value)
+    if type(value) == "string" then
+      for _, r in ipairs(TILDE_MAP) do value = value:gsub(r[1], r[2]) end
+      return value
+    elseif type(value) == "table" then
+      local out = {}
+      for k, v in pairs(value) do out[k] = remap(v) end
+      return out
+    end
+    return value
+  end
+
   -- Função auxiliar para ler e carregar um catálogo de traduções a partir de um arquivo Lua.
   local function catalog(name)
     local rel = "lang/" .. name .. ".lua"
@@ -15,7 +37,7 @@ return function(mod)
       mod.log:warn("%s nao retornou uma tabela: %s", rel, tostring(table_))
       return {}
     end
-    return table_
+    return remap(table_)
   end
 
   -- Função auxiliar para processar valores de diálogo, convertendo-os em listas de segmentos de texto IR.

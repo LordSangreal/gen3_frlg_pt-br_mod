@@ -327,6 +327,7 @@ return {
   ["POKéMON EGG"] = "OVO POKéMON",
   ["PORTRAIT"] = "RETRATO",
   ["POWER"] = "POTENC.",
+  ["POKé BALLS"] = "POKé BOLAS",
   ["Paralyzes on contact."] = "Paralisa em contato.",
   ["Paralyzing dust is\nscattered wildly.\nIt may paralyze\nthe foe."] = "Um pó paralisante\né espalhado no ar.\nPode paralisar o\noponente.",
   ["Passes on status problems."] = "Transmite os problemas de status.",
