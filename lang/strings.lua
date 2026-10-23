@@ -680,6 +680,7 @@ return {
   ["Which move?"] = "Qual movimento?",
   ["While asleep, the\nuser randomly uses\none of the moves it\nknows."] = "Enquanto dorme, o\nusuário utiliza\naleatoriamente um\ndos seus movimentos.",
   ["YES"] = "SIM",
+  ["NO"] = "NÃO",
   ["You already have this WONDER NEWS."] = "Você já tem estas NOTÍCIAS MISTERIOSAS.",
   ["You don't have that item."] = "Não tem este item.",
   ["You need at least two POKéMON that aren't EGGS to go in."] = "Precisa de pelo menos 2 POKéMON que não sejam OVOS para entrar.",

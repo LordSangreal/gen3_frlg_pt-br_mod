@@ -13,6 +13,7 @@
   "category": "LANGUAGE",
   "language": true,
   "priority": 100,
+  "permissions": ["engine_internals"],
   "dependencies": [],
   "optional_dependencies": [],
   "conflicts": [],
