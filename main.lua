@@ -1,5 +1,13 @@
 -- Arquivo principal que aplica as traduções de diálogos, nomes e descrições de itens, movimentos, treinadores e strings.
 return function(mod)
+  -- Select before any FRLG catalogs, fonts or internal hooks are installed.
+  local ok, version = pcall(require, "src.core.GameVersion")
+  local game = ok and type(version) == "table" and type(version.get) == "function" and version.get()
+  if game == "emerald" or game == "ruby" or game == "sapphire" then
+    return assert(loadstring(assert(mod:read("hoenn.lua")), "@hoenn.lua"))()(mod, game)
+  end
+  if game ~= "firered" and game ~= "leafgreen" then return end
+
   -- Função auxiliar para ler e carregar um catálogo de traduções a partir de um arquivo Lua.
   local function catalog(name)
     local rel = "lang/" .. name .. ".lua"

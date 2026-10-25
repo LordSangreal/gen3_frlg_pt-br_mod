@@ -1,0 +1,329 @@
+{
+  "english_entries": 6158,
+  "portuguese_entries": 6123,
+  "paired_ids": 6123,
+  "eligible_entries": 6158,
+  "reviewed_corrections": 77,
+  "input_issues_counts": {
+    "missing_portuguese": 35,
+    "placeholder_mismatch": 42
+  },
+  "input_issues": [
+    {
+      "id": 270387255,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270408935,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270436028,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270436336,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270436687,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270436867,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270437071,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270437157,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270437304,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270437383,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270437737,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270441610,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270444695,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270445102,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270450330,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270450450,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270452910,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270453369,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270462487,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270466765,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270498374,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270498748,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270498801,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270498869,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270499011,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270499164,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270499262,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270499342,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270499686,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270501530,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270501759,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270501967,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270502853,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270503077,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270503223,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270503622,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270504546,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270505372,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270509282,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270509633,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270509774,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270510257,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270510645,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270510708,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270511471,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270511575,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270512290,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270512359,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270512420,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 270516313,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270518742,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270540607,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270555919,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270558231,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270590335,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270608252,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270608905,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270610589,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270619215,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270619386,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270621303,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270705256,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270720619,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 270940735,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271001323,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 271001448,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 271001496,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 271003661,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271009077,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 271009120,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 271030698,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271125244,
+      "reason": "missing_portuguese"
+    },
+    {
+      "id": 271125530,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271145598,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271219632,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271252025,
+      "reason": "placeholder_mismatch"
+    },
+    {
+      "id": 271264438,
+      "reason": "placeholder_mismatch"
+    }
+  ],
+  "portuguese_only_ids": [],
+  "excluded_counts": {},
+  "excluded": [],
+  "inputs": {
+    "dump_BPE_en(1).xml": "cd00eb5f38521bb25e5907dbc45b1f7f6306f1c04a34f441fe6727efce9d6b4b",
+    "dump_BPE_pt-BR_zambrakas(1).xml": "7d5df63b42d7ae27ee23ce3b379cf73d1be0e592bf6123b65e0a6777e8505811"
+  },
+  "policy": "Address plus English verification in Emerald; unambiguous English matching in all three games. Unmatched text remains English."
+}

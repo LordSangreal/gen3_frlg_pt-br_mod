@@ -1,0 +1,13 @@
+-- Named Hoenn introduction supplements.
+return {
+  {"gText_BirchInTrouble", "PROF. BIRCH is in trouble! Release a POKéMON and rescue him!", "O PROF. BIRCH está em apuros!\\nLiberte um POKéMON para salvá-lo!"},
+  {"gText_Birch_AndYouAre", "And you are?", "E você é?"},
+  {"gText_Birch_AreYouReady", "All right, are you ready? Your very own adventure is about to unfold. Take courage, and leap into the world of POKéMON where dreams, adventure, and friendships await! Well, I'll be expecting you later. Come see me in my POKéMON LAB. ", "Muito bem, está tudo pronto?\\n\\nSua própria aventura\\nestá prestes a começar.\\n\\nTenha coragem e entre no mundo\\ndos POKéMON, onde sonhos, aventuras\\ne amizades esperam por você!\\n\\nEstarei esperando sua visita.\\nVenha ao meu LABORATÓRIO POKéMON."},
+  {"gText_Birch_BoyOrGirl", "Are you a boy? Or are you a girl?", "Você é um menino?\\nOu é uma menina?"},
+  {"gText_Birch_MainSpeech", "This world is widely inhabited by creatures known as POKéMON. We humans live alongside POKéMON, at times as friendly playmates, and at times as cooperative workmates. And sometimes, we band together and battle others like us. But despite our closeness, we don't know everything about POKéMON. In fact, there are many, many secrets surrounding POKéMON. To unravel POKéMON mysteries, I've been undertaking research. That's what I do. ", "Este mundo é habitado por criaturas\\nconhecidas como POKéMON.\\n\\nNós, humanos, vivemos ao lado deles,\\ncomo amigos e companheiros de trabalho.\\n\\nÀs vezes, também nos unimos\\npara batalhar com outras pessoas.\\n\\nApesar de sermos tão próximos,\\nainda não sabemos tudo sobre eles.\\n\\nHá muitos segredos\\nenvolvendo os POKéMON.\\n\\nEu faço pesquisas para desvendar\\nos mistérios dos POKéMON.\\nÉ esse o meu trabalho."},
+  {"gText_Birch_Pokemon", "This is what we call a “POKéMON.”  ", "Isto é o que chamamos de “POKéMON”."},
+  {"gText_Birch_SoItsPlayer", "So it's {01}{05}?", "Então é {01}{05}?"},
+  {"gText_Birch_Welcome", "Hi! Sorry to keep you waiting! Welcome to the world of POKéMON! My name is BIRCH. But everyone calls me the POKéMON PROFESSOR. ", "Olá! Desculpe pela espera!\\n\\nBem-vindo ao mundo dos POKéMON!\\n\\nMeu nome é BIRCH.\\n\\nMas todos me chamam de\\nPROFESSOR POKéMON."},
+  {"gText_Birch_WhatsYourName", "All right. What's your name?", "Muito bem.\\nQual é o seu nome?"},
+  {"gText_Birch_YourePlayer", "Ah, okay! You're {01}{05} who's moving to my hometown of LITTLEROOT. I get it now! ", "Ah, entendi!\\n\\nVocê é {01}{05}, que está se mudando\\npara minha cidade, LITTLEROOT.\\nAgora entendi!"},
+}

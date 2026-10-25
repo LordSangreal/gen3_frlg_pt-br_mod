@@ -1,3 +1,17 @@
+# [PT-BR] Versão Brasileira — FRLG e Hoenn
+
+Revisão local `0.2.0-local.2`: mantém os diálogos XML e acrescenta menus, botões, introdução do Birch e descrições do Emerald. As 309 descrições de itens válidos, 354 de golpes e 78 de habilidades têm tradução no catálogo.
+
+Nas opções do mod, escolha separadamente **PORTUGUÊS / ENGLISH** para nomes de **naturezas**, **habilidades** e **golpes**. O padrão é português. As descrições continuam em português. Reabra o jogo após mudar as opções.
+
+[Relatório desta revisão e limites de cobertura](docs/UPDATE_LOCAL2.md) · [Histórico da integração XML](docs/HOENN.md).
+
+Somente o mod é atualizado. Nenhum commit foi criado. A integração ainda mantém em inglês textos sem correspondência segura; não há comprovação de tradução integral de todas as telas/Pokédex.
+
+---
+
+## Documentação anterior de FRLG
+
 # [PT-BR] Versão Brasileira (FireRed / LeafGreen)
 
 Tradução para português do Brasil dos **diálogos** de *Pokémon FireRed* e *Pokémon LeafGreen* no formato de **mod para o gen1recomp** suporte a Gen 3 em beta.
