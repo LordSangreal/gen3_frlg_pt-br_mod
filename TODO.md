@@ -1,1 +1,10 @@
-- Editar fontes do jogo para adicionar acentos faltantes, como Ã e ã
+- Verificar por que certos textos não aparecem, mesmo estando na localização:
+  - Tela de recapitulação, após carregar o jogo
+  - Descrições de Pokémon na pokédex
+  - Tela de ajuda ao apertar L ou R
+  - Tela do Fame Checker
+  - Tela de comprar bicicleta (BICYCLE e NO THANKS)
+- Editar diversos gráficos do jogo:
+  - Tela-título
+  - Tela de dados de pokémon
+  - Tela de batalha
