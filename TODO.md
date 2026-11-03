@@ -3,7 +3,9 @@
   - Descrições de Pokémon na pokédex
   - Tela de ajuda ao apertar L ou R
   - Tela do Fame Checker
-  - Tela de comprar bicicleta (BICYCLE e NO THANKS)
+  - Menu de comprar bicicleta (BICYCLE e NO THANKS)
+  - Menu da máquina de vendas do último andar do prédio de Celadon (FRESH WATER, SODA POP, LEMONADE e EXIT)
+  - Menu do elevador da base da Equipe Rocket no cassino (B1F, B2F, B3F e EXIT)
 - Editar diversos gráficos do jogo:
   - Tela-título
   - Tela de dados de pokémon
