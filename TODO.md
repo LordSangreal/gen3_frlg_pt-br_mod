@@ -6,6 +6,8 @@
   - Menu de comprar bicicleta (BICYCLE e NO THANKS)
   - Menu da máquina de vendas do último andar do prédio de Celadon (FRESH WATER, SODA POP, LEMONADE e EXIT)
   - Menu do elevador da base da Equipe Rocket no cassino (B1F, B2F, B3F e EXIT)
+- Corrigir bugs menores de textos passando a janela:
+  - Ao perguntar qual PC deve ser acessado, o nome "PC do PROF. CARVALHO" passa da janela por 3 letras
 - Editar diversos gráficos do jogo:
   - Tela-título
   - Tela de dados de pokémon

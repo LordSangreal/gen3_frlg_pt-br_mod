@@ -52,7 +52,7 @@ return {
   [49] = 6, -- Õ (adicionado pela mod)
   [50] = 6, -- ã (adicionado pela mod)
   [51] = 6, -- õ (adicionado pela mod)
-  [52] = 10, -- LV (glifo especial)
+  [52] = 11, -- LV (glifo especial)
   [53] = 8, -- =
   [54] = 5, -- ;
   [55] = 6, -- vazio/reservado (sem caractere mapeado)
@@ -261,7 +261,7 @@ return {
   [258] = 12, -- ← (simbolo extra)
   [259] = 12, -- → (simbolo extra)
   [260] = 8, -- + (simbolo extra)
-  [261] = 10, -- LV_2
+  [261] = 11, -- LV_2
   [262] = 10, -- PP
   [263] = 10, -- ID
   [264] = 10, -- №
